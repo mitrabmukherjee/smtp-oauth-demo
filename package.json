@@ -1,0 +1,19 @@
+{
+  "name": "mail-demo",
+  "version": "1.0.0",
+  "description": "Express app with Gmail OAuth2 (XOAUTH2) email sending",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "googleapis": "^144.0.0",
+    "nodemailer": "^6.9.15"
+  }
+}
